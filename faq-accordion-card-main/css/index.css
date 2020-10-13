@@ -1,0 +1,142 @@
+@import url("https://fonts.google.com/specimen/Kumbh+Sans");
+#arrow {
+  float: right;
+}
+
+body {
+  background-color: #af67e9;
+  height: auto;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .wrapper #FAQ {
+    background-color: white;
+    margin-top: 45%;
+    margin-bottom: 25%;
+    width: 95%;
+    border-radius: 20px;
+    width: auto;
+  }
+  .wrapper #FAQ h1 {
+    color: brown;
+    text-align: center;
+  }
+  .wrapper #FAQ #heroe-dsk {
+    display: none;
+  }
+  .wrapper #FAQ #heroe-mbl {
+    margin-top: -38%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .wrapper #FAQ .content {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .wrapper #FAQ a {
+    color: black;
+    text-align: center;
+    padding-left: 5%;
+  }
+  .wrapper #FAQ a.one:focus,
+  .wrapper #FAQ a.two:focus,
+  .wrapper #FAQ a.three:focus,
+  .wrapper #FAQ a.four:focus,
+  .wrapper #FAQ a.five:focus {
+    color: #4a4b5e;
+    font-weight: bolder;
+  }
+  .wrapper #FAQ a:-webkit-any-link {
+    color: #4a4b5e;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .wrapper #FAQ a:-moz-any-link {
+    color: #4a4b5e;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .wrapper #FAQ a:any-link {
+    color: #4a4b5e;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .wrapper #FAQ p {
+    color: #787887;
+  }
+  .wrapper #FAQ hr {
+    color: red;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+  }
+  #FAQ {
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 95%;
+    border-radius: 20px;
+    width: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  #FAQ #col2 {
+    padding-right: 11%;
+  }
+  #heroe-mbl {
+    display: none;
+  }
+  #heroe-dsk {
+    margin-left: -10%;
+  }
+  a {
+    color: black;
+    text-align: center;
+    padding-left: 5%;
+  }
+  a.one:focus,
+  a.two:focus,
+  a.three:focus,
+  a.four:focus,
+  a.five:focus {
+    color: #4a4b5e;
+    font-weight: bolder;
+  }
+  a:-webkit-any-link {
+    color: #4a4b5e;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  a:-moz-any-link {
+    color: #4a4b5e;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  a:any-link {
+    color: #4a4b5e;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  p {
+    color: #787887;
+  }
+}
+/*# sourceMappingURL=index.css.map */

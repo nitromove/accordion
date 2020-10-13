@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container" id="FAQ">
+      <div class="column">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/illustration-woman-online-desktop.svg" alt="" class="img-fluid" id="heroe-dsk">
+            <img src="images/illustration-woman-online-mobile.svg" alt="" class="img-fluid" id="heroe-mbl">
+          </div>
+          <div class="col-md-6" id="col2">
+            <h1>FAQ</h1>
+            <a href="#" class="one" onclick="toggle(event)">
+              How many team members can I invite?
+                <img src="images/icon-arrow-down.svg" alt="" class="img-fluid" id="arrow">
+            </a>
+            <div id="one" class="content">
+              <P>
+                You can invite up to 2 additional users on the Free plan. There is no limit on
+                team members for the Premium plan.
+              </P>
+            </div>
+            <hr id="divider">
+
+            <a href="#" class="two" onclick="toggle(event)">
+              What is the maximum file upload size?
+                <img src="images/icon-arrow-down.svg" alt="" class="img-fluid" id="arrow">
+            </a>
+            <div id="two" class="content">
+              <p>
+                No more than 2GB. All files in your account must fit your allotted storage space.
+              </p>
+            </div>
+            <hr id="divider">
+
+            <a href="#" class="three" onclick="toggle(event)">
+              How do I reset my password?
+                <img src="images/icon-arrow-down.svg" alt="" class="img-fluid" id="arrow">
+            </a>
+            <div id="three" class="content">
+              <p> Click “Forgot password” from the login page or “Change password” from your profile page.
+                A reset link will be emailed to you.</p>
+            </div>
+            <hr id="divider">
+
+            <a href="#" class="four" onclick="toggle(event)">
+              Can I cancel my subscription?
+                <img src="images/icon-arrow-down.svg" alt="" class="img-fluid" id="arrow">
+            </a>
+            <div id="four" class="content">
+              <p> Yes! Send us a message and we’ll process your request no questions asked</p>
+            </div>
+            <hr id="divider">
+
+            <a href="#" class="five" onclick="toggle(event)">
+              Do you provide additional support? 
+                <img src="images/icon-arrow-down.svg" alt="" class="img-fluid" id="arrow">
+            </a>
+            <div id="five" class="content">
+              <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+            </div>
+            <hr id="divider">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  -->
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
